@@ -43,7 +43,7 @@ export class AppComponent {
   async presentAlert() {
     const alert = await this.alertController.create({
       header: 'Alert',
-      subHeader: 'Important message',
+      subHeader: 'You are Gay',
       message: 'This is an alert!',
       buttons: ['OK'],
     });
